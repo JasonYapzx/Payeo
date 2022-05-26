@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './App.css';
 
-import { app, auth, firestore } from './components/firebase.js';
+import { auth, firestore } from './components/firebase.js';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -10,6 +10,7 @@ import { collection, query, orderBy, limit, serverTimestamp, addDoc } from 'fire
 
 function App() {
 
+  // eslint-disable-next-line
   const [user, loading, error] = useAuthState(auth);
 
   return (
@@ -105,7 +106,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
+      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt="Profile"/>
       <p>{text}</p>
     </div>
   </>)
