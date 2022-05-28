@@ -16,7 +16,7 @@ After downloading the application, simply create an account or login with Google
 - CSS
 
 ## Contact
-Yap Zher Xiang Jason - jasonyapzx@gmail.com
-Yeo Yu Jie - yeo.yujie@gmail.com
-Project Link : https://github.com/JasonYapzx/Payeo.git
+Yap Zher Xiang Jason: jasonyapzx@gmail.com
+Yeo Yu Jie: yeo.yujie@gmail.com
+Project Link: https://github.com/JasonYapzx/Payeo.git
 Currently deployed on Netifly: https://eloquent-douhua-1f1ec3.netlify.app
